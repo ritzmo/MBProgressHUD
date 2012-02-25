@@ -169,6 +169,7 @@ typedef enum {
 #else
 @property (retain) UIView *customView;
 #endif
+
 /** 
  * MBProgressHUD operation mode. Switches between indeterminate (MBProgressHUDModeIndeterminate) and determinate
  * progress (MBProgressHUDModeDeterminate). The default is MBProgressHUDModeIndeterminate.
@@ -196,6 +197,7 @@ typedef enum {
 #else
 @property (assign) id<MBProgressHUDDelegate> delegate;
 #endif
+
 /** 
  * An optional short message to be displayed below the activity indicator. The HUD is automatically resized to fit
  * the entire text. If the text is too long it will get clipped by displaying "..." at the end. If left unchanged or
@@ -279,6 +281,7 @@ typedef enum {
 #else
 @property (retain) UIFont* labelFont;
 #endif
+
 /** 
  * Font to be used for the details label. Set this property if the default is not adequate. 
  */
@@ -287,6 +290,7 @@ typedef enum {
 #else
 @property (retain) UIFont* detailsLabelFont;
 #endif
+
 /** 
  * The progress of the progress indicator, from 0.0 to 1.0. Defaults to 0.0. 
  */
